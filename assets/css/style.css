@@ -39,11 +39,6 @@ body {
     color: white;
 }
 
-.link-divider {
-    padding-left: 12px;
-}
-
-
 
 /* About Section */
 
@@ -68,8 +63,8 @@ body {
     border-top: 1.5px solid #dddddd;
 }
 
-.img-me {
-    width: 150px;
+#img-me {
+    width: 50%;
     padding-right: 30px;
     float: left;
     margin-top: 10px;
