@@ -82,59 +82,26 @@ body {
     color: #777777;
 }
 
-
-/* Footer */
-
-footer {
-    text-align: center;
-    background-color: #666666;
-    padding: 10px 0;
-    color: white;
-    border-top: 8px solid #4aaaa5;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    padding-top: 10px;
-}
-
-
 /* Contact Section */
-.contact-content {
+#contact{
     background-color: #ffffff;
     width: 960px;
     height: 100%;
-    margin: 30px auto 300px auto;
+    margin: 125px auto 300px auto;
     border: #dddddd solid 2px;
     position: relative;
+    padding: 50px;
 }
 
 form {
-    width: 91%;
+    width: 100%;
     margin: 0 auto 15px auto;
 }
 
-input [type=text], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input [type=submit] {
-    background-color: #4aaaa5;
+#submitButton {
+    background: #4aaaa5;
     color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 0;
-    cursor: pointer;
-    font-size: 15px;
-
+    font-size: 1em;
 }
 
 /* Portfolio Section */
@@ -173,3 +140,20 @@ margin-left: 12px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 25px;
 }
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    padding: 10px 0;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 10px;
+}
+
