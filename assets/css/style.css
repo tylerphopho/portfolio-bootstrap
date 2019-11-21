@@ -104,7 +104,7 @@ form {
 #portfolio-content {
     background-color: white;
     min-height: 950px;
-    width: 960px;
+    max-width: 960px;
     margin: 125px auto 200px auto;
     border: #dddddd solid 2px;
     padding: 50px;
